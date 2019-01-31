@@ -5,6 +5,8 @@ This is a simple immutable state library designed to manage updates for top down
 For example for webcomponents.
 
 ```js
+import createState from 'createstate';
+
 class Component extends HTMLElement {
   constructor() {
     const {state, setState, effect, memo} = createState(),
